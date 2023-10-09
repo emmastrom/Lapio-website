@@ -1,7 +1,33 @@
-h1 { color: purple; }
+h1 { 
+  padding-top: 1em;
+  margin-top: 1m;
+  color: #333;
+}
 
-.lista { color: hotpink; }
+img {
+  position: absolute;
+}
 
-.leipateksti { color: firebrick; }
+.lista {
+  color: #551;
+  left: 20em;
+  text-align: left;
+  padding-top: 2em;
+  position: relative;
+}
 
-#punainen-kohta { color: red; }
+.leipateksti {
+  color: #555;
+  padding-top: 3em;
+}
+
+#musta-kohta { color: black }
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
